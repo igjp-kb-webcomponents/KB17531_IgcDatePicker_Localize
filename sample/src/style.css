@@ -1,0 +1,8 @@
+/* 日付ピッカーの年と月の並び順を逆転させる */
+igc-date-picker::part(years-navigation) {
+    order: -1;
+}
+/* 年表示の後ろに"年" の文字を追加する */
+igc-date-picker::part(years-navigation)::after {
+    content: "年";
+}
